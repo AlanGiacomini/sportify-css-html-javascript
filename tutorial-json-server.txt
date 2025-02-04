@@ -1,0 +1,37 @@
+Para instalar e utilizar o json-server, você pode seguir os passos abaixo:
+
+Instalação do Node.js: Primeiro, você precisa ter o Node.js instalado na sua máquina. Você pode baixar a versão mais recente do Node.js aqui.
+
+Instalação do json-server: Após instalar o Node.js, abra o terminal e execute o seguinte comando para instalar o json-server globalmente:
+
+npm install -g json-server@0.17
+
+OBS: Nesse projeto foi usada a versão 0.17 do json-server
+
+Criar um arquivo JSON: Crie uma pasta para o seu projeto e dentro dela, crie um arquivo chamado artists.json. Esse arquivo deve conter a estrutura da sua API. Por exemplo:
+
+//código JSON de exemplo. No projeto era o arquivo artists.json
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Foo Fighters",
+      "genre": "Rock",
+      "urlImg": "URL_DA_IMAGEM"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "genre": "Pop",
+      "urlImg": "URL_DA_IMAGEM"
+    }
+  ]
+}
+
+Subir o servidor: No terminal, navegue até a pasta onde você criou o arquivo artists.json e execute o seguinte comando para iniciar o json-server:
+
+json-server --watch artists.json --port 3000
+
+Isso fará com que o json-server suba um servidor local na porta 3000, e você poderá acessar sua API em http://localhost:3000/artists.
+
+Consumir a API: Agora você pode fazer requisições para essa API usando o método fetch no seu JavaScript, como realizado em script.js.
