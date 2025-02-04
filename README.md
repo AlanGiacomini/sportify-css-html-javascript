@@ -7,6 +7,8 @@ Bem-vindo ao repositório do projeto de construção da página inicial do Spoti
 - **HTML:** Usado para estruturar a página.
 - **CSS:** Utilizado para estilizar e dar design à página.
 - **JavaScript:** Usado para adicionar interatividade à página.
+- **NPM (Node Package Manager):** Usado para instalar bibliotecas e ferramentas de terceiros para utilizar em seus projetos. Neste projeto, usado para instalar o Json-Server.
+- **Json-Server:** Usado para simular acesso à API para consulta de dados.
 
 ## Funcionalidades
 
