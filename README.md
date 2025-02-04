@@ -15,6 +15,7 @@ Bem-vindo ao repositório do projeto de construção da página inicial do Spoti
 - Estrutura básica da página inicial do Spotify.
 - Estilos que replicam o design do Spotify.
 - Elementos interativos para uma experiência de usuário aprimorada.
+- Campo de busca simula consulta à API de artistas.
 
 ## Como Executar o Projeto
 
